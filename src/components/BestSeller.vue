@@ -70,15 +70,11 @@ const orderViaWA = (product) => {
       class="min-h-screen max-w-0xl mx-auto px-0 sm:px-6 lg:px-0 bg-white py-8"
     >
       <!--  Title  -->
-      <div class="flex flex-col mb-8 md:mb-16 px-8">
+      <div class="flex flex-col mb-8 md:mb-16 ">
         <SubTitleSection> Produk best seller </SubTitleSection>
-        <TitleSection>
+        <TitleSection class="bg-cream">
           Top Bouquet, Karangan Bunga & Standing Flower
         </TitleSection>
-        <HeadingSection>
-          Produk yang kami tawarkan berkualitas, indah sehingga memenuhi
-          kebutuhan anda
-        </HeadingSection>
       </div>
 
       <!--  Best Seller Content  -->
