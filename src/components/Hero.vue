@@ -12,8 +12,8 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
 </script>
 
 <template>
-  <section class="bg-beige">
-    <div class="relative bg-beige max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section class="bg-cream">
+    <div class="relative bg-cream max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Background Image untuk Mobile -->
       <div class="md:hidden absolute inset-0">
         <img

@@ -6,7 +6,8 @@ import FloatingActionButtonWhatsapp from "./components/elements/button/FloatingA
 </script>
 
 <template>
-  <nav class="sticky top-0 z-[100]">
+  <!-- <nav class="sticky top-0 z-[100]"> -->
+  <nav class="sticky top-0 z-[100] lg:static">
     <Navbar/>
   </nav>
   <main>

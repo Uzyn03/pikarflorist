@@ -8,10 +8,10 @@ const router = createRouter({
       name: "home",
       component: () => import("../views/Home.vue"),
       meta: {
-        title: "Toko Bunga Terbaik di Bandung Buka 24 jam | Shelby Florist",
+        title: "Toko Bunga Terbaik di Bandung Buka 24 jam | Pikar Florist",
         name: "description",
         content:
-          "Shleby Florist - Toko Bunga Terbaik di Bandung. Butuh bunga untuk acara spesialmu? Kami menyediakan berbagai macam bunga segar berkualitas dengan layanan pengiriman gratis dan cepat.",
+          "Pikar Florist - Toko Bunga Terbaik di Bandung. Butuh bunga untuk acara spesialmu? Kami menyediakan berbagai macam bunga segar berkualitas dengan layanan pengiriman gratis dan cepat.",
       },
     },
     {
@@ -24,10 +24,10 @@ const router = createRouter({
       name: "AllProduct",
       component: () => import("../views/AllProduct.vue"),
       meta: {
-        title: "Toko Bunga terbaik di Bandung | Shelby Florist",
+        title: "Toko Bunga terbaik di Bandung | Pikar Florist",
         name: "description",
         content:
-          "Pesan pilihan berbagai macam bunga terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+          "Pesan pilihan berbagai macam bunga terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
       },
     },
 
@@ -36,10 +36,10 @@ const router = createRouter({
       name: "AllKaranganBunga",
       component: () => import("../views/AllKaranganBunga.vue"),
       meta: {
-        title: "Toko Bunga Karangan Bunga Bandung  | Shelby Florist",
+        title: "Toko Bunga Karangan Bunga Bandung  | Pikar Florist",
         name: "description",
         content:
-          "Pesan pilihan Karangan Bunga terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+          "Pesan pilihan Karangan Bunga terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
       },
     },
     {
@@ -47,10 +47,10 @@ const router = createRouter({
       name: "AllBouquet",
       component: () => import("../views/AllBouquet.vue"),
       meta: {
-        title: "Toko Bunga Bouquet Bandung | Shelby Florist",
+        title: "Toko Bunga Bouquet Bandung | Pikar Florist",
         name: "description",
         content:
-          "Pesan pilihan Bouquet terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+          "Pesan pilihan Bouquet terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
       },
     },
     {
@@ -58,10 +58,10 @@ const router = createRouter({
       name: "StandingFlower",
       component: () => import("../views/AllStandingFlower.vue"),
       meta: {
-        title: "Toko Bunga Standing Flower Bandung | Shelby Florist",
+        title: "Toko Bunga Standing Flower Bandung | Pikar Florist",
         name: "description",
         content:
-          "Pesan pilihan Standing Flower terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+          "Pesan pilihan Standing Flower terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
       },
     },
     {
@@ -69,10 +69,10 @@ const router = createRouter({
       name: "FlashSale",
       component: () => import("../views/FlashSale.vue"),
       meta: {
-        title: "Toko Bunga Bandung | Shelby Florist",
+        title: "Toko Bunga Bandung | Pikar Florist",
         name: "description",
         content:
-          "Pesan pilihan Promo terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+          "Pesan pilihan Promo terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
       },
     },
     {
@@ -80,10 +80,10 @@ const router = createRouter({
       name: "PremiumBouquet",
       component: () => import("../views/PremiumBouquet.vue"),
       meta: {
-        title: "Toko Bunga Bandung | Shelby Florist",
+        title: "Toko Bunga Bandung | Pikar Florist",
         name: "description",
         content:
-          "Pesan pilihan Promo terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+          "Pesan pilihan Promo terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
       },
     },
 
