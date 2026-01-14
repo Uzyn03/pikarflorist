@@ -70,11 +70,24 @@ const orderViaWA = (product) => {
       class="min-h-screen max-w-0xl mx-auto px-0 sm:px-6 lg:px-0 bg-white py-8"
     >
       <!--  Title  -->
-      <div class="flex flex-col mb-8 md:mb-16 ">
-        <SubTitleSection> Produk best seller </SubTitleSection>
-        <TitleSection class="bg-cream">
-          Top Bouquet, Karangan Bunga & Standing Flower
-        </TitleSection>
+      <!-- Header Section -->
+      <div class="text-center mb-12 lg:mb-16 space-y-4 px-4">
+        <!-- Small Title -->
+        <div class="inline-block">
+          <span class="text-sm tracking-[0.3em] uppercase text-lightBeige border-b border-lightBeige pb-1">
+            Paling Diminati
+          </span>
+        </div>
+        
+        <!-- Main Title -->
+        <h2 class="font-cormorant text-4xl lg:text-5xl xl:text-6xl font-bold text-darkBeige">
+          Best Seller Collection
+        </h2>
+        
+        <!-- Subtitle -->
+        <p class="text-lightBeige text-lg max-w-2xl mx-auto  ">
+          Koleksi bunga pilihan yang paling banyak dipilih oleh pelanggan kami
+        </p>
       </div>
 
       <!--  Best Seller Content  -->
@@ -141,7 +154,7 @@ const orderViaWA = (product) => {
 /* Custom scrollbar styling */
 .overflow-x-auto {
   scrollbar-width: thin;
-  scrollbar-color: #504d43 #f5f0e0;
+  scrollbar-color: #504d43 #f4f7d2;
 }
 
 .overflow-x-auto::-webkit-scrollbar {
@@ -149,7 +162,7 @@ const orderViaWA = (product) => {
 }
 
 .overflow-x-auto::-webkit-scrollbar-track {
-  background: #f5f0e0;
+  background: #f4f7d2;
   border-radius: 3px;
   
 }
