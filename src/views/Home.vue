@@ -53,9 +53,9 @@ useHead({
     <Hero/>
     <BestSeller/>
     <OurProduct/>
-    <Bouquet/>
-    <KaranganBunga/>
-    <StandingFlower/>
+    <!-- <Bouquet/> -->
+    <!-- <KaranganBunga/> -->
+    <!-- <StandingFlower/> -->
     <AboutUs/>
     <WhyChooseUs/>
     <ContactUs/>

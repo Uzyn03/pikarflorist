@@ -14,7 +14,7 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
 </script>
 
 <template>
-  <section id="aboutUs" class="flex flex-col gap-12 pb-12 mb-12 bg-beige">
+  <section id="aboutUs" class="flex flex-col gap-12 pb-12 mb-12 bg-cream">
     <div class="flex flex-col gap-8 md:gap-12">
       <!-- Top Section -->
       <div
