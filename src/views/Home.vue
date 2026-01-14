@@ -57,7 +57,7 @@ useHead({
     <!-- <KaranganBunga/> -->
     <!-- <StandingFlower/> -->
     <AboutUs/>
-    <WhyChooseUs/>
+    <!-- <WhyChooseUs/> -->
     <ContactUs/>
     
     <!-- FAB WhatsApp -->

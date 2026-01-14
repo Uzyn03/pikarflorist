@@ -62,8 +62,8 @@ const orderViaWA = (product) => {
 </script>
 
 <template>
-  <div class="bg-beige">
-    <section class="py-8 md:py-12 bg-beige px-2 md:px-0">
+  <div class="bg-cream">
+    <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="mb-12">
           <TitleSection class="text-center mb-4 lg:mb-8">

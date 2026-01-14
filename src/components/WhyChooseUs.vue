@@ -10,7 +10,7 @@ import SubTitleSection from "./elements/text/SubTitleSection.vue";
     <div>
       <div class="mx-auto px-2 md:px-4 lg:px-16">
         <SubTitleSection>
-          Shelby Florist
+          Pikar Florist
         </SubTitleSection>
         <TitleSection class="text-center">Mengapa Harus memilih Kami?</TitleSection>
         <HeadingSection class="text-gray-600 max-w-2xl mx-auto">

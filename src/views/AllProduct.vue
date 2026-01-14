@@ -83,9 +83,9 @@ useHead({
 </script>
 
 <template>
-  <div class="bg-beige">
+  <div class="bg-cream">
     <!-- Section Produk -->
-    <section class="py-8 md:py-12 bg-beige px-2 md:px-0">
+    <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Container dengan padding yang responsive -->
         <div class="mb-12">
