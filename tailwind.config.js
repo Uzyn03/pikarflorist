@@ -7,10 +7,10 @@ export default {
       colors: {
         //shelby florist
         beige: "#f5f0e0",
-        lightBeige: "#7eb3d4",
-        darkBeige: "#4a90b8",
-        veryDarkBeige: "#2d5f7f",
-        golden: "#5ba3cc",
+        lightBeige: "#4a5568",
+        darkBeige: "#1e3a5f",
+        veryDarkBeige: "#0f2942",
+        golden: "#3b82f6",
         white: "#ffffff",
         //pikarflorist
         cream: "#f0f8ff",
