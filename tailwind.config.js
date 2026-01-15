@@ -5,18 +5,19 @@ export default {
   theme: {
     extend: {
       colors: {
+        //shelby florist
         beige: "#f5f0e0",
-        lightBeige: "#7a7766",
-        darkBeige: "#504d43",
-        veryDarkBeige: "#3a3931",
-        golden: "#a17137",
+        lightBeige: "#7eb3d4",
+        darkBeige: "#4a90b8",
+        veryDarkBeige: "#2d5f7f",
+        golden: "#5ba3cc",
         white: "#ffffff",
         //pikarflorist
-        cream: "#f4f7d2",
+        cream: "#f0f8ff",
         sage: "#9CAF88",
         olive: "#6B7A5F",
         forest: "#3A5A40",
-        charcoal: "#2F2F2F"
+        charcoal: "#2F2F2F",
       },
       fontFamily: {
         cormorant: ["Cormorant Garamond", "serif"],
