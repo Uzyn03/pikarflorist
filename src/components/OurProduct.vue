@@ -168,7 +168,7 @@ import { RouterLink } from "vue-router";
             Hubungi kami untuk konsultasi gratis dan dapatkan rekomendasi bunga yang sempurna untuk acara Anda
           </p>
           <a
-            href="https://wa.me/6281904520743?text=Halo%20pikar%20florist%2C%20saya%20ingin%20konsultasi"
+            href="https://wa.me/6283160641549?text=Halo%20pikar%20florist%2C%20saya%20ingin%20konsultasi"
             target="_blank"
             class="inline-flex items-center gap-2 px-8 py-3.5 bg-darkBeige text-white rounded-full hover:bg-golden transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >

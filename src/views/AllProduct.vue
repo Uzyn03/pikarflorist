@@ -62,7 +62,7 @@ const formatPrice = (price) => {
 // Handle WhatsApp orderl
 const orderViaWA = (product) => {
   const message = `Halo Admin, saya ingin memesan *${product.category}* kode *${product.code}* `;
-  const whatsappUrl = `https://wa.me/6281904520743?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
     message
   )}`;
   window.open(whatsappUrl, "_blank");

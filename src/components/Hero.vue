@@ -3,7 +3,7 @@ import CommonButton from "./elements/button/CommonButton.vue";
 import { RouterLink } from "vue-router";
 import { ref, onMounted } from "vue";
 
-const phoneNumber = "6281904520743";
+const phoneNumber = "6283160641549";
 const message = "Hallo pikar florist Mau Pesan Bunga Buat Hari Ini";
 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

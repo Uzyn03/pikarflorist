@@ -37,12 +37,12 @@ const products = [
 //Meta tag
 import { useHead } from "@vueuse/head";
 useHead({
-  title: "Toko Bunga Terbaik di Bandung Buka 24 jam | Shelby Florist",
+  title: "Toko Bunga Terbaik di Bandung Buka 24 jam | Pikar Florist",
   meta: [
     {
       name: "description",
       content:
-        "Shleby Florist - Toko Bunga Terbaik di Bandung. Butuh bunga untuk acara spesialmu? Kami menyediakan berbagai macam bunga segar berkualitas dengan layanan pengiriman gratis dan cepat.",
+        "Pikar Florist - Toko Bunga Terbaik di Bandung. Butuh bunga untuk acara spesialmu? Kami menyediakan berbagai macam bunga segar berkualitas dengan layanan pengiriman gratis dan cepat.",
     },
   ],
 })

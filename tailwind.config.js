@@ -5,15 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        //shelby florist
-        beige: "#f5f0e0",
+        cream: "#f0f8ff",
         lightBeige: "#4a5568",
         darkBeige: "#1e3a5f",
         veryDarkBeige: "#0f2942",
         golden: "#3b82f6",
         white: "#ffffff",
-        //pikarflorist
-        cream: "#f0f8ff",
+        //pikarfloris
         sage: "#9CAF88",
         olive: "#6B7A5F",
         forest: "#3A5A40",

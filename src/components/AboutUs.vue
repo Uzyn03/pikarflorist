@@ -1,6 +1,6 @@
 <script setup>
 // WhatsApp
-const phoneNumber = "6281904520743";
+const phoneNumber = "6283160641549";
 const message = "Halo Pikar Florist, saya ingin memesan bunga";
 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

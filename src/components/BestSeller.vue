@@ -56,7 +56,7 @@ const scrollRightBawah = ()=>{
 
 const orderViaWA = (product) => {
   const message = `Halo Admin, saya ingin memesan *${product.category}* kode *${product.code}* `;
-  const whatsappUrl = `https://wa.me/6281904520743?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
     message
   )}`;
   window.open(whatsappUrl, "_blank");
@@ -154,7 +154,7 @@ const orderViaWA = (product) => {
 /* Custom scrollbar styling */
 .overflow-x-auto {
   scrollbar-width: thin;
-  scrollbar-color: #504d43 #f4f7d2;
+  scrollbar-color: #504d43 #f0f8ff;
 }
 
 .overflow-x-auto::-webkit-scrollbar {
@@ -162,7 +162,7 @@ const orderViaWA = (product) => {
 }
 
 .overflow-x-auto::-webkit-scrollbar-track {
-  background: #f4f7d2;
+  background: #f0f8ff;
   border-radius: 3px;
   
 }

@@ -1,6 +1,6 @@
 <script setup>
 // WhatsApp
-const phoneNumber = "6281904520743";
+const phoneNumber = "6283160641549";
 const message = "Halo Pikar Florist, saya ingin memesan bunga";
 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 </script>
@@ -82,16 +82,16 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                 </svg>
               </div>
-              <span class="text-sm">+62 819-0452-0743</span>
+              <span class="text-sm">+62 831-6064-1549</span>
             </a>
-            <a href="mailto:floristshelby@gmail.com" class="text-lightBeige hover:text-golden transition-colors flex items-center gap-3 group">
+            <a href="mailto:pikarflorist@gmail.com" class="text-lightBeige hover:text-golden transition-colors flex items-center gap-3 group">
               <div class="w-8 h-8 bg-cream rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-golden/20 transition-colors">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                 </svg>
               </div>
-              <span class="text-sm">floristshelby@gmail.com</span>
+              <span class="text-sm">pikarflorist@gmail.com</span>
             </a>
           </div>
           
@@ -100,7 +100,7 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
             <p class="text-sm text-lightBeige mb-3">Ikuti Kami:</p>
             <div class="flex gap-3">
               <a
-                href="https://www.instagram.com/shelby.florist/"
+                href="https://www.instagram.com/toko__bunga__florist_bandung?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 class="w-10 h-10 bg-cream rounded-full flex items-center justify-center text-darkBeige hover:bg-golden hover:text-white transition-all duration-300 transform hover:scale-110"
               >
