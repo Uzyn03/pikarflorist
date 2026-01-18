@@ -4,7 +4,7 @@ import HeadingSection from "../components/elements/text/HeadingSection.vue";
 import CommonButton from "../components/elements/button/CommonButton.vue";
 
 import { ref, computed } from "vue";
-// Mengambil data Json 
+// Mengambil data Json
 
 import KBdukaCita from "../assets/data/karangan_bunga_duka_cita.json";
 import KBselamatSukses from "../assets/data/karangan_bunga_selamat_dan_sukses.json";
@@ -13,26 +13,23 @@ import Product from "../components/card/Product.vue";
 
 //menggabungkan semua data karangan bunga
 const karanganBunga = ref([
-    ...KBdukaCita.products,
-    ...KBhappyWedding.products,
-    ...KBselamatSukses.products,
-])
+  ...KBdukaCita.products,
+  ...KBhappyWedding.products,
+  ...KBselamatSukses.products,
+]);
 
 // State untuk filter kategori
-const selectedCategory = ref('Semua');
-const categories = [
-  'Semua',
-  'Duka Cita',
-  'Selamat & Sukses',
-  'Happy Wedding',
-];
+const selectedCategory = ref("Semua");
+const categories = ["Semua", "Duka Cita", "Selamat & Sukses", "Happy Wedding"];
 
 // Filter products berdasarkan types
 const filteredProducts = computed(() => {
-  if (selectedCategory.value === 'Semua') {
+  if (selectedCategory.value === "Semua") {
     return karanganBunga.value;
   }
-  return karanganBunga.value.filter(product => product.category === selectedCategory.value);
+  return karanganBunga.value.filter(
+    (product) => product.category === selectedCategory.value
+  );
 });
 
 // Function untuk mengganti kategori
@@ -71,7 +68,7 @@ const formatPrice = (price) => {
 const orderViaWA = (product) => {
   const message = `Halo Admin, saya ingin memesan Karangan Bunga *${product.category}* kode *${product.code}* `;
   const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
-      message
+    message
   )}`;
   window.open(whatsappUrl, "_blank");
 };
@@ -79,30 +76,33 @@ const orderViaWA = (product) => {
 //Meta tag
 import { useHead } from "@vueuse/head";
 useHead({
-  title: "Toko Bunga Karangan Bunga Bandung | Shelby Florist",
+  title: "Toko Bunga Karangan Bunga Bandung | Pikar Florist",
   meta: [
     {
       name: "description",
       content:
-        "Pesan pilihan Karangan Bunga terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+        "Pesan pilihan Karangan Bunga terbaik di Bandung hanya di Toko Bunga Pikar Florist.",
     },
   ],
-})
+});
 </script>
 
 <template>
   <div class="bg-cream">
-  <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <!-- Container dengan padding yang responsive -->
-    <div class="mb-12">
-      <TitleSection class="text-center mb-4 lg:mb-8"> Karangan Bunga </TitleSection>
-      <HeadingSection class="text-gray-600 max-w-2xl mx-auto">
-        Temukan berbagai produk Karangan Bunga pilihan dengan kualitas terbaik untuk memenuhi
-        kebutuhan Anda
-      </HeadingSection>
-    </div>
+    <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Container dengan padding yang responsive -->
+        <div class="mb-12">
+          <TitleSection class="text-center mb-4 lg:mb-8">
+            Karangan Bunga
+          </TitleSection>
+          <HeadingSection class="text-gray-600 max-w-2xl mx-auto">
+            Temukan berbagai produk Karangan Bunga pilihan dengan kualitas
+            terbaik untuk memenuhi kebutuhan Anda
+          </HeadingSection>
+        </div>
 
-    <!-- Filter Categories -->
+        <!-- Filter Categories -->
         <div class="mb-8 flex flex-wrap justify-center gap-3">
           <button
             v-for="category in categories"
@@ -112,41 +112,41 @@ useHead({
               'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300',
               selectedCategory === category
                 ? 'bg-darkBeige text-white shadow-md'
-                : 'bg-white text-gray-700 hover:bg-primary/10'
+                : 'bg-white text-gray-700 hover:bg-primary/10',
             ]"
           >
             {{ category }}
           </button>
         </div>
 
-    <!-- Grid Produk -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 justify-items-center">
-      <!-- Card Produk -->
-      <Product
-              v-for="product in displayedProducts"
-              :key="`first-${product.id}`"
-              :category="product.category"
-              :code="product.code"
-              :price="product.price"
-              :imageUrl="product.imageUrl"
-              :type="product.type"
-              class="w-full" justify-items-center
-              @order="orderViaWA"
+        <!-- Grid Produk -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 justify-items-center"
+        >
+          <!-- Card Produk -->
+          <Product
+            v-for="product in displayedProducts"
+            :key="`first-${product.id}`"
+            :category="product.category"
+            :code="product.code"
+            :price="product.price"
+            :imageUrl="product.imageUrl"
+            :type="product.type"
+            :size="product.size"
+            class="w-full"
+            justify-items-center
+            @order="orderViaWA"
           />
-    </div>
-    <!-- Tombol Show More -->
+        </div>
+        <!-- Tombol Show More -->
         <div v-if="hasMore" class="my-8 text-center">
-          <CommonButton
-              @click="showMore"
-          >
+          <CommonButton @click="showMore">
             Tampilkan Lebih Banyak
           </CommonButton>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
   </div>
-
-
 </template>
 
 <style scoped>
