@@ -5,196 +5,157 @@
       "price": 450000,
       "code": "001",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1753373277/450_kp1dyd.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528316/kb-wedding450_snj5a0.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1 m"
     },
     {
       "id": 2,
       "price": 450000,
       "code": "002",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504984/450-2_bax1jn.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528316/kb-wedding450-2_lrncpi.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1 m"
     },
     {
       "id": 3,
-      "price": 550000,
+      "price": 450000,
       "code": "003",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504986/550_ju2oo9.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528315/kb-wedding450-3_dz9wkc.jpg",
       "type": "Karangan Bunga",
-      "bestseller":true
+      "bestseller": true,
+      "size": "2x1 m"
     },
     {
       "id": 4,
-      "price": 550000,
+      "price": 450000,
       "code": "004",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504992/550-2_xjeujn.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528315/kb-wedding450-4_kki7eh.jpg",
       "type": "Karangan Bunga",
-      "bestseller":true
+      "bestseller": true,
+      "size": "2x1 m"
     },
     {
       "id": 5,
-      "price": 550000,
+      "price": 500000,
       "code": "005",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504988/550-3_k0uqdf.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528316/kb-wedding500_r4stg8.jpg",
       "type": "Karangan Bunga",
-      "bestseller":true
+      "bestseller": true,
+      "size": "2x1 m"
     },
     {
       "id": 6,
-      "price": 600000,
+      "price": 550000,
       "code": "006",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504984/600_ekowk9.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528316/kb-wedding550_lvtp1c.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 7,
       "price": 600000,
       "code": "007",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504985/600-2_uh73n8.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528315/kb-wedding600_o4kvln.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 8,
-      "price": 600000,
+      "price": 750000,
       "code": "008",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504989/600-3_iwwna5.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528316/kb-wedding750_el6tmu.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 9,
       "price": 750000,
       "code": "009",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504990/750_f36vzr.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528315/kb-wedding750-2_d9kbvt.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 10,
-      "price": 1000000,
+      "price": 750000,
       "code": "010",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504992/1000_i2ttzu.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528315/kb-wedding750-3_wm5c2z.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 11,
-      "price": 1200000,
+      "price": 750000,
       "code": "011",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736504993/1200_msi9xb.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528315/kb-wedding750-4_lnzkeq.jpg",
       "type": "Karangan Bunga",
-      "bestseller":true
+      "bestseller": true,
+      "size": "2x1.25 m"
     },
     {
       "id": 12,
-      "price": 1500000,
+      "price": 750000,
       "code": "012",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736576466/happyw15jt_gcnm6k.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528313/kb-wedding750-5_qdkmai.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 13,
-      "price": 550000,
+      "price": 900000,
       "code": "013",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741976019/hw550_kewt5k.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528313/kb-wedding900_seol3k.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.5 m"
     },
     {
       "id": 14,
-      "price": 750000,
+      "price": 900000,
       "code": "014",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880072/hw750_qozulx.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528313/kb-wedding900-2_uexa82.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.5 m"
     },
     {
       "id": 15,
-      "price": 750000,
+      "price": 950000,
       "code": "015",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880075/hw750-2_cyrshh.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528313/kb-wedding950_ujd9ii.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.5 m"
     },
     {
       "id": 16,
-      "price": 750000,
+      "price": 1000000,
       "code": "016",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880075/hw750-3_nyadph.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528314/kb-wedding1000_sbqjms.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.5 m"
     },
     {
       "id": 17,
-      "price": 750000,
+      "price": 1500000,
       "code": "017",
       "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741976502/hw750-4_a7myza.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 18,
-      "price": 750000,
-      "code": "018",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880073/hw750-5_yxuz0v.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 19,
-      "price": 750000,
-      "code": "019",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880075/hw750-6_bpvo9n.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 20,
-      "price": 1000000,
-      "code": "020",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880074/hw1000-2_bxuali.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 21,
-      "price": 1000000,
-      "code": "021",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880076/hw1000_nxeaho.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 22,
-      "price": 900000,
-      "code": "022",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1753332876/hw-022-900_nwhzsu.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 23,
-      "price": 750000,
-      "code": "023",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760367476/kbwedding750_ppogpt.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 24,
-      "price": 900000,
-      "code": "024",
-      "category": "Happy Wedding",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760367476/kbwedding900_oaizjy.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528314/kb-wedding1500_r3hsjt.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.5 m"
     }
     
   ]

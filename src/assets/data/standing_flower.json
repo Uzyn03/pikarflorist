@@ -2,42 +2,50 @@
   "products": [
     {
       "id": 1,
-      "price": 850000,
+      "price": 500000,
       "code": "001",
       "category": "Standing Flower",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736576826/sf850_tw2fuk.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528346/sf500_cnqna4.jpg",
       "type": "Standing Flower"
     },
     {
       "id": 2,
-      "price": 850000,
+      "price": 650000,
       "code": "002",
       "category": "Standing Flower",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736576825/sf850b_mimyru.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf650_r9hco2.jpg",
       "type": "Standing Flower"
     },
     {
       "id": 3,
-      "price": 900000,
+      "price": 650000,
       "code": "003",
       "category": "Standing Flower",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736576826/sf900_tqozqj.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528346/sf650-2_xojnda.jpg",
       "type": "Standing Flower"
     },
     {
       "id": 4,
-      "price": 900000,
+      "price": 700000,
       "code": "004",
       "category": "Standing Flower",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1744820972/sf900new_hb0tub_4c3a50_7b7ca6.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf700_omvgvo.jpg",
       "type": "Standing Flower"
     },
     {
       "id": 5,
-      "price": 1300000,
+      "price": 750000,
       "code": "005",
       "category": "Standing Flower",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1744821850/Untitled_design_gxyjsh_6a621c.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528346/sf750_jotgxs.jpg",
+      "type": "Standing Flower"
+    },
+    {
+      "id": 6,
+      "price": 800000,
+      "code": "006",
+      "category": "Standing Flower",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf800_lmpsjf.jpg",
       "type": "Standing Flower"
     }
   ]

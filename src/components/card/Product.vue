@@ -33,28 +33,28 @@ const props = defineProps({
 });
 
 // Optimasi URL gambar
-const thumbnailUrl = computed(() => 
-  optimizeCloudinaryUrl(props.imageUrl, { 
-    width: 400, 
-    quality: 'auto:eco' // Untuk thumbnail gunakan quality lebih rendah
+const thumbnailUrl = computed(() =>
+  optimizeCloudinaryUrl(props.imageUrl, {
+    width: 400,
+    quality: "auto:eco", // Untuk thumbnail gunakan quality lebih rendah
   })
 );
 
-const fullImageUrl = computed(() => 
-  optimizeCloudinaryUrl(props.imageUrl, { 
+const fullImageUrl = computed(() =>
+  optimizeCloudinaryUrl(props.imageUrl, {
     width: 800,
-    quality: 'auto:good' // Untuk full size gunakan quality lebih baik
+    quality: "auto:good", // Untuk full size gunakan quality lebih baik
   })
 );
 
-const zoomImageUrl = computed(() => 
-  optimizeCloudinaryUrl(props.imageUrl, { 
+const zoomImageUrl = computed(() =>
+  optimizeCloudinaryUrl(props.imageUrl, {
     width: 1200,
-    quality: 'auto:best' // Untuk zoom gunakan quality terbaik
+    quality: "auto:best", // Untuk zoom gunakan quality terbaik
   })
 );
 
-const imageSrcSet = computed(() => 
+const imageSrcSet = computed(() =>
   generateSrcSet(props.imageUrl, [400, 800, 1200])
 );
 
@@ -213,12 +213,11 @@ onUnmounted(() => {
         <div class="flex flex-wrap gap-2 items-center mb-3">
           <p class="text-sm text-lightBeige">Code: {{ code }}</p>
           <!-- Tampilkan Size jika ada -->
-          
         </div>
         <span v-if="size" class="text-sm text-gray-600">
-            <span class="text-lightBeige">•</span>
-            <span class="ml-1">{{ size }}</span>
-          </span>
+          <span class="text-lightBeige">•</span>
+          <span class="ml-1">{{ size }}</span>
+        </span>
       </div>
 
       <div class="flex flex-wrap justify-between items-center gap-2">
