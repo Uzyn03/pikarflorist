@@ -1,22 +1,18 @@
 <script setup>
-import TitleSection from "../components/elements/text/TitleSection.vue";
-import CommonButton from "../components/elements/button/CommonButton.vue";
-import Product from "../components/card/Product.vue";
-import HeadingSection from "../components/elements/text/HeadingSection.vue";
+import TitleSection from '../components/elements/text/TitleSection.vue';
+import CommonButton from '../components/elements/button/CommonButton.vue';
+import Product from '../components/card/Product.vue';
+import HeadingSection from '../components/elements/text/HeadingSection.vue';
 
 // Mengambil data Json
-import { ref, computed } from "vue";
-import HandBouquet from "../assets/data/hand_bouquet.json";
-import KBdukaCita from "../assets/data/karangan_bunga_duka_cita.json";
-import KBselamatSukses from "../assets/data/karangan_bunga_selamat_dan_sukses.json";
-import KBhappyWedding from "../assets/data/karangan_bunga_happy_wedding.json";
-import TableBouquet from "../assets/data/table_bouquet.json";
-import StandingFlower from "../assets/data/standing_flower.json";
-import FlashSale from "../assets/data/flash_sale.json"
-import PremiumBouquet from "../assets/data/premium_bouquet.json";
-import { RouterLink } from "vue-router";
-
-
+import { ref, computed } from 'vue';
+import HandBouquet from '../assets/data/hand_bouquet.json';
+import KBdukaCita from '../assets/data/karangan_bunga_duka_cita.json';
+import KBselamatSukses from '../assets/data/karangan_bunga_selamat_dan_sukses.json';
+import KBhappyWedding from '../assets/data/karangan_bunga_happy_wedding.json';
+import TableBouquet from '../assets/data/table_bouquet.json';
+import StandingFlower from '../assets/data/standing_flower.json';
+import { RouterLink } from 'vue-router';
 
 // Menggabungkan semua data produk
 const allProduct = ref([
@@ -26,8 +22,6 @@ const allProduct = ref([
   ...KBselamatSukses.products,
   ...KBhappyWedding.products,
   ...StandingFlower.products,
-  ...FlashSale.products,
-  ...PremiumBouquet.products,
 ]);
 
 // untuk menampilkan beberapa halaman dulu
@@ -56,30 +50,30 @@ const showMore = () => {
 
 // Format price to IDR
 const formatPrice = (price) => {
-  return price.toLocaleString("id-ID");
+  return price.toLocaleString('id-ID');
 };
 
 // Handle WhatsApp orderl
 const orderViaWA = (product) => {
-  const message = `Halo Admin, saya ingin memesan *${product.category}* kode *${product.code}* `;
+  const message = `Hallo Kaa, saya ingin memesan *${product.category}* kode *${product.code}* `;
   const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
     message
   )}`;
-  window.open(whatsappUrl, "_blank");
+  window.open(whatsappUrl, '_blank');
 };
 
 //Meta tag
-import { useHead } from "@vueuse/head";
+import { useHead } from '@vueuse/head';
 useHead({
-  title: "Toko Bunga terbaik di Bandung  | Shelby Florist",
+  title: 'Toko Bunga terbaik di Bandung  | Shelby Florist',
   meta: [
     {
-      name: "description",
+      name: 'description',
       content:
-        "Pesan pilihan berbagai macam bunga terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+        'Pesan pilihan berbagai macam bunga terbaik di Bandung hanya di Toko Bunga Shelby Florist.',
     },
   ],
-})
+});
 </script>
 
 <template>
@@ -106,12 +100,6 @@ useHead({
           </RouterLink>
           <RouterLink to="/StandingFlower">
             <CommonButton> Standing Flower </CommonButton>
-          </RouterLink>
-          <RouterLink to="/FlashSale">
-            <CommonButton> Flash Sale </CommonButton>
-          </RouterLink>
-          <RouterLink to="/PremiumBouquet">
-            <CommonButton> Premium Bouquet </CommonButton>
           </RouterLink>
         </div>
 
