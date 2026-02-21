@@ -10,40 +10,48 @@
     },
     {
       "id": 2,
-      "price": 650000,
+      "price": 600000,
       "code": "002",
+      "category": "Standing Flower",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699740/standing-flower600_mg2sh4.jpg",
+      "type": "Standing Flower"
+    },
+    {
+      "id": 3,
+      "price": 700000,
+      "code": "003",
       "category": "Standing Flower",
       "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf650_r9hco2.jpg",
       "type": "Standing Flower"
     },
     {
-      "id": 3,
+      "id": 4,
       "price": 650000,
-      "code": "003",
+      "code": "004",
       "category": "Standing Flower",
       "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528346/sf650-2_xojnda.jpg",
       "type": "Standing Flower"
     },
     {
-      "id": 4,
+      "id": 5,
       "price": 700000,
-      "code": "004",
+      "code": "005",
       "category": "Standing Flower",
       "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf700_omvgvo.jpg",
       "type": "Standing Flower"
     },
     {
-      "id": 5,
+      "id": 6,
       "price": 750000,
-      "code": "005",
+      "code": "006",
       "category": "Standing Flower",
       "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528346/sf750_jotgxs.jpg",
       "type": "Standing Flower"
     },
     {
-      "id": 6,
-      "price": 800000,
-      "code": "006",
+      "id": 7,
+      "price": 950000,
+      "code": "007",
       "category": "Standing Flower",
       "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf800_lmpsjf.jpg",
       "type": "Standing Flower"

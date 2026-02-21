@@ -5,211 +5,92 @@
       "price": 450000,
       "code": "001",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760366734/kbdukacita01_xbkqmf.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699667/kb-dukacita450_ucxp31.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1 m"
     },
     {
       "id": 2,
       "price": 450000,
       "code": "002",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506795/450-2_nkfxe3.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699668/kb-dukacita450_2_dhtowr.jpg",
       "type": "Karangan Bunga",
-      "bestseller": true
+      "bestseller": true,
+      "size": "2x1 m"
     },
     {
       "id": 3,
-      "price": 550000,
+      "price": 450000,
       "code": "003",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506796/550_a3qkb5.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699668/kb-dukacita450_3_pusenh.jpg",
       "type": "Karangan Bunga",
-      "bestseller": true
+      "bestseller": true,
+      "size": "2x1.25 m"
     },
     {
       "id": 4,
       "price": 550000,
       "code": "004",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506797/550-2_rosans.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699668/kb-dukacita550_hjo66g.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 5,
       "price": 550000,
       "code": "005",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506797/550-3_tsmlsu.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699668/kb-dukacita550_2_drakrd.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 6,
       "price": 550000,
       "code": "006",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506799/550-4_wmaqs7.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699669/kb-dukacita_550_3_dtmuvl.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 7,
-      "price": 550000,
+      "price": 700000,
       "code": "007",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506800/550-5_liadvm.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699667/kb-dukacita700_y7e8oc.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 8,
-      "price": 550000,
+      "price": 750000,
       "code": "008",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506802/550-6_mogel8.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699668/kb-dukacita750_dwujqk.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.25 m"
     },
     {
       "id": 9,
-      "price": 600000,
+      "price": 850000,
       "code": "009",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506801/600_u8ynqp.jpg",
-      "type": "Karangan Bunga"
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699668/kb-dukacita850_vnlacw.jpg",
+      "type": "Karangan Bunga",
+      "size": "2x1.5 m"
     },
     {
       "id": 10,
-      "price": 600000,
+      "price": 1200000,
       "code": "010",
       "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506800/600-2_yrcrde.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 11,
-      "price": 600000,
-      "code": "011",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506783/600-3_dwephr.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 12,
-      "price": 600000,
-      "code": "012",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506782/600-4_ud5h8y.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 13,
-      "price": 750000,
-      "code": "013",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506786/750_io2aec.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771699669/kb-dukacita1200_gopmmj.jpg",
       "type": "Karangan Bunga",
-      "bestseller": true
-    },
-    {
-      "id": 14,
-      "price": 750000,
-      "code": "014",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506796/750-2_r1gjuf.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 15,
-      "price": 750000,
-      "code": "015",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760366732/kbdukacita15_kkzhdw.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 16,
-      "price": 750000,
-      "code": "016",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506785/750-4_ys8ic3.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 17,
-      "price": 750000,
-      "code": "017",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506786/750-5_cyjxnv.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 18,
-      "price": 900000,
-      "code": "018",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506789/900_ad3emu.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 19,
-      "price": 900000,
-      "code": "019",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506791/900-2_dvdrge.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 20,
-      "price": 900000,
-      "code": "020",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736575999/bdc_ersccf.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 21,
-      "price": 1000000,
-      "code": "021",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1736506795/1000_brpgv3.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 22,
-      "price": 600000,
-      "code": "022",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1741880290/tbc600_jbdzog.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 23,
-      "price": 800000,
-      "code": "023",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760366732/kbdukacita800_qcaitr.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 24,
-      "price": 600000,
-      "code": "024",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760366731/kbdukacita600_tatoar.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 25,
-      "price": 1500000,
-      "code": "025",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760366732/kbdukacita1500_hnr4xr.jpg",
-      "type": "Karangan Bunga"
-    },
-    {
-      "id": 26,
-      "price": 1850000,
-      "code": "026",
-      "category": "Duka Cita",
-      "imageUrl": "https://res.cloudinary.com/dvffsa6kt/image/upload/v1760366733/kbdukacita1850_mvmedi.jpg",
-      "type": "Karangan Bunga"
+      "size": "2x1.5 m"
     }
   ]
 }
