@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "price": 150000,
+      "price": 170000,
       "code": "001",
       "category": "Hand Bouquet",
-      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1768456973/hb150_huvgj1.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771785985/hand-bouquet170_r03kh9.jpg",
       "type": "Bouquet"
     },
     {
@@ -13,7 +13,7 @@
       "price": 185000,
       "code": "002",
       "category": "Hand Bouquet",
-      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1768456970/hb185_ut3gjt.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771785985/hand-bouquet185_zoplue.jpg",
       "type": "Bouquet"
     },
     {
@@ -21,7 +21,7 @@
       "price": 200000,
       "code": "003",
       "category": "Hand Bouquet",
-      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1768456970/hb200_ufuvf4.jpg",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771785986/hand-bouquet200_uhe4md.jpg",
       "type": "Bouquet"
     },
     {

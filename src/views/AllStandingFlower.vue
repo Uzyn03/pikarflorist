@@ -5,7 +5,7 @@ import HeadingSection from "../components/elements/text/HeadingSection.vue";
 
 import { ref } from "vue";
 
-// Mengambil data Json 
+// Mengambil data Json
 import StandingFlower from "../assets/data/standing_flower.json"
 import Product from "../components/card/Product.vue";
 
@@ -18,7 +18,7 @@ const formatPrice = (price) => {
 
 // Handle WhatsApp order
 const orderViaWA = (product) => {
-  const message = `Halo Admin, saya ingin memesan *${product.category}* kode *${product.code}* `;
+  const message = `Halo Kaa, saya ingin memesan *${product.category}* kode *${product.code}* `;
   const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
       message
   )}`;
