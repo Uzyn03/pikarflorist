@@ -95,6 +95,9 @@ useHead({
           <RouterLink to="/Bouquet">
             <CommonButton> Hand Bouquet </CommonButton>
           </RouterLink>
+          <RouterLink to="/TableBouquet">
+            <CommonButton> Table Bouquet </CommonButton>
+          </RouterLink>
           <RouterLink to="/KaranganBunga">
             <CommonButton> Karangan Bunga </CommonButton>
           </RouterLink>

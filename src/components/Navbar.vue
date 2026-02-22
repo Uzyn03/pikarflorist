@@ -252,6 +252,13 @@ const closeMobileMenu = () => {
                 Hand Bouquet
               </RouterLink>
               <RouterLink
+                to="/TableBouquet"
+                @click="closeMobileMenu"
+                class="block py-3 px-4 text-darkBeige hover:bg-darkBeige/5 rounded-lg transition-colors"
+              >
+                Table Bouquet
+              </RouterLink>
+              <RouterLink
                 to="/KaranganBunga"
                 @click="closeMobileMenu"
                 class="block py-3 px-4 text-darkBeige hover:bg-darkBeige/5 rounded-lg transition-colors"

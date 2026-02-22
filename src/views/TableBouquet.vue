@@ -1,0 +1,83 @@
+<script setup>
+
+import TitleSection from "../components/elements/text/TitleSection.vue";
+import HeadingSection from "../components/elements/text/HeadingSection.vue";
+
+import { ref } from "vue";
+
+// Mengambil data Json
+import TableBouquet from "../assets/data/table_bouquet.json"
+import Product from "../components/card/Product.vue";
+
+const tableBouquet = ref(TableBouquet.products)
+
+// Format price to IDR
+const formatPrice = (price) => {
+  return price.toLocaleString("id-ID");
+};
+
+// Handle WhatsApp order
+const orderViaWA = (product) => {
+  const message = `Halo Admin, saya ingin memesan *${product.category}* kode *${product.code}* `;
+  const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
+      message
+  )}`;
+  window.open(whatsappUrl, "_blank");
+};
+
+//Meta tag
+import { useHead } from "@vueuse/head";
+useHead({
+  title: " Toko Bunga Standing Flower Bandung| Shelby Florist",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Pesan pilihan Table Bouquet terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+    },
+  ],
+})
+
+</script>
+
+<template>
+
+  <div class="bg-cream">
+  <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <!-- Container dengan padding yang responsive -->
+    <div class="mb-12">
+      <TitleSection class="text-center mb-4 lg:mb-8"> Table Bouquet </TitleSection>
+      <HeadingSection class="text-gray-600 max-w-2xl mx-auto">
+        Temukan berbagai produk pilihan dengan kualitas terbaik untuk memenuhi
+        kebutuhan Anda
+      </HeadingSection>
+    </div>
+
+    <!-- Grid Produk -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 justify-items-center">
+      <!-- Card Produk -->
+      <Product
+              v-for="product in tableBouquet"
+              :key="`first-${product.id}`"
+              :category="product.category"
+              :code="product.code"
+              :price="product.price"
+              :imageUrl="product.imageUrl"
+              :type="product.type"
+              class="w-full" justify-items-center
+              @order="orderViaWA"
+          />
+    </div>
+    </div>
+  </section>
+  </div>
+</template>
+
+<style scoped>
+@media (max-width: 640px) {
+  /* Custom styling untuk mobile jika diperlukan */
+  .grid {
+    margin: 0 -0.5rem; /* Negative margin untuk mengkompensasi padding container */
+  }
+}
+</style>
