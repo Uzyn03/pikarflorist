@@ -1,75 +1,78 @@
 <script setup>
+import TitleSection from '../components/elements/text/TitleSection.vue';
+import HeadingSection from '../components/elements/text/HeadingSection.vue';
 
-import TitleSection from "../components/elements/text/TitleSection.vue";
-import HeadingSection from "../components/elements/text/HeadingSection.vue";
-
-import { ref } from "vue";
+import { ref } from 'vue';
 
 // Mengambil data Json
-import StandingFlower from "../assets/data/standing_flower.json"
-import Product from "../components/card/Product.vue";
+import StandingFlower from '../assets/data/standing_flower.json';
+import Product from '../components/card/Product.vue';
 
-const standingFlower = ref(StandingFlower.products)
+const standingFlower = ref(StandingFlower.products);
 
 // Format price to IDR
 const formatPrice = (price) => {
-  return price.toLocaleString("id-ID");
+  return price.toLocaleString('id-ID');
 };
 
 // Handle WhatsApp order
 const orderViaWA = (product) => {
   const message = `Halo Kaa, saya ingin memesan *${product.category}* kode *${product.code}* `;
   const whatsappUrl = `https://wa.me/6283160641549?text=${encodeURIComponent(
-      message
+    message
   )}`;
-  window.open(whatsappUrl, "_blank");
+  window.open(whatsappUrl, '_blank');
 };
 
 //Meta tag
-import { useHead } from "@vueuse/head";
+import { useHead } from '@vueuse/head';
 useHead({
-  title: " Toko Bunga Standing Flower Bandung| Shelby Florist",
+  title: ' Toko Bunga Standing Flower Bandung| Shelby Florist',
   meta: [
     {
-      name: "description",
+      name: 'description',
       content:
-        "Pesan pilihan Standing Flower terbaik di Bandung hanya di Toko Bunga Shelby Florist.",
+        'Pesan pilihan Standing Flower terbaik di Bandung hanya di Toko Bunga Shelby Florist.',
     },
   ],
-})
-
+});
 </script>
 
 <template>
-
   <div class="bg-cream">
-  <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <!-- Container dengan padding yang responsive -->
-    <div class="mb-12">
-      <TitleSection class="text-center mb-4 lg:mb-8"> Standing Flower </TitleSection>
-      <HeadingSection class="text-gray-600 max-w-2xl mx-auto">
-        Temukan berbagai produk pilihan dengan kualitas terbaik untuk memenuhi
-        kebutuhan Anda
-      </HeadingSection>
-    </div>
+    <section class="py-8 md:py-12 bg-cream px-2 md:px-0">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Container dengan padding yang responsive -->
+        <div class="mb-12">
+          <TitleSection class="text-center mb-4 lg:mb-8">
+            Standing Flower
+          </TitleSection>
+          <HeadingSection class="text-gray-600 max-w-2xl mx-auto">
+            Temukan berbagai produk pilihan dengan kualitas terbaik untuk
+            memenuhi kebutuhan Anda
+          </HeadingSection>
+        </div>
 
-    <!-- Grid Produk -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 justify-items-center">
-      <!-- Card Produk -->
-      <Product
-              v-for="product in standingFlower"
-              :key="`first-${product.id}`"
-              :category="product.category"
-              :code="product.code"
-              :price="product.price"
-              :imageUrl="product.imageUrl"
-              :type="product.type"
-              class="w-full" justify-items-center
-              @order="orderViaWA"
+        <!-- Grid Produk -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 justify-items-center"
+        >
+          <!-- Card Produk -->
+          <Product
+            v-for="product in standingFlower"
+            :key="`first-${product.id}`"
+            :category="product.category"
+            :code="product.code"
+            :price="product.price"
+            :imageUrl="product.imageUrl"
+            :type="product.type"
+            class="w-full"
+            justify-items-center
+            @order="orderViaWA"
           />
-    </div>
-    </div>
-  </section>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

@@ -55,6 +55,22 @@
       "category": "Standing Flower",
       "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1769528347/sf800_lmpsjf.jpg",
       "type": "Standing Flower"
+    },
+    {
+      "id": 8,
+      "price": 600000,
+      "code": "008",
+      "category": "Standing Flower",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771865111/standing-flower600_2_nvc8mq.jpg",
+      "type": "Standing Flower"
+    },
+    {
+      "id": 9,
+      "price": 750000,
+      "code": "009",
+      "category": "Standing Flower",
+      "imageUrl": "https://res.cloudinary.com/dchvw0l0h/image/upload/v1771865111/standing-flower750_umfkek.jpg",
+      "type": "Standing Flower"
     }
   ]
 }
