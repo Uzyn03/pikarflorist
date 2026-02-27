@@ -71,12 +71,12 @@ const orderViaWA = (product) => {
 //Meta tag
 import { useHead } from '@vueuse/head';
 useHead({
-  title: 'Toko Bunga Bouquet di Bandung | Shelby Florist',
+  title: 'Toko Bunga Bouquet di Bandung | Pikar Florist',
   meta: [
     {
       name: 'description',
       content:
-        'Pesan pilihan Bouquet terbaik di Bandung hanya di Toko Bunga Shelby Florist.',
+        'Pesan pilihan Bouquet terbaik di Bandung hanya di Toko Bunga Pikar Florist.',
     },
   ],
 });

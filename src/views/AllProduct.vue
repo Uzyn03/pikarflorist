@@ -65,12 +65,12 @@ const orderViaWA = (product) => {
 //Meta tag
 import { useHead } from '@vueuse/head';
 useHead({
-  title: 'Toko Bunga terbaik di Bandung  | Shelby Florist',
+  title: 'Toko Bunga terbaik di Bandung  | Pikar Florist',
   meta: [
     {
       name: 'description',
       content:
-        'Pesan pilihan berbagai macam bunga terbaik di Bandung hanya di Toko Bunga Shelby Florist.',
+        'Pesan pilihan berbagai macam bunga terbaik di Bandung hanya di Toko Bunga Pikar Florist.',
     },
   ],
 });

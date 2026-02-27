@@ -27,12 +27,12 @@ const orderViaWA = (product) => {
 //Meta tag
 import { useHead } from '@vueuse/head';
 useHead({
-  title: ' Toko Bunga Standing Flower Bandung| Shelby Florist',
+  title: ' Toko Bunga Standing Flower Bandung|Pikar Florist',
   meta: [
     {
       name: 'description',
       content:
-        'Pesan pilihan Standing Flower terbaik di Bandung hanya di Toko Bunga Shelby Florist.',
+        'Pesan pilihan Standing Flower terbaik di Bandung hanya di Toko Bunga Pikar Florist.',
     },
   ],
 });
