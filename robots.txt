@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
-Sitemap: https://tokobungashelbyflorist.com/sitemap.xml
+Sitemap: https://pikarflorist.com/sitemap.xml
